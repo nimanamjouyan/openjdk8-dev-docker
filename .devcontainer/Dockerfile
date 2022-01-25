@@ -13,6 +13,7 @@ ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
+
 # Configure apt
 RUN apt-get update \
     && export DEBIAN_FRONTEND=noninteractive \

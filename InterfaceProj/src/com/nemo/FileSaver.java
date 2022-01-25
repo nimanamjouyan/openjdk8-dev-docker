@@ -1,4 +1,4 @@
-package com.nime;
+package com.nemo;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -31,5 +31,10 @@ public class FileSaver implements ISavable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public String toString() {
+        return buffer.toString();
     }
 }
